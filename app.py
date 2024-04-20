@@ -17,7 +17,7 @@ chemistry_grades = grades["chemistry"]
 
 # streamlit setup
 st.set_page_config(
-    page_title="Student Report Card Prototype", page_icon="📚", layout="wide"
+    page_title="Student Report Card Prototype", page_icon="📚", layout="wide", initial_sidebar_state="collapsed"
 )
 
 st.title("Student Report Card Prototype")
